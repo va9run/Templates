@@ -11,5 +11,7 @@ class testmethod(unittest.TestCase):
         df1 = df2.copy()
         return (assert_frame_equal(df2,df1))
 
+# ALWAYS HAVE THE FUNCTION NAME START WITH test otherwise IT WILL IGNORE IT AND WON'T
+# ANYTHING
 # In Terminal run python -m unittest #NAMEOFTHEMODULE(_unitTesting)
 # python -m unittest _unitTesting
